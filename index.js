@@ -39,7 +39,7 @@ app.get('/', (req, res) => {
         res.render('home', {
             stock: doneAPI[0]
         });
-    });
+    }, "fb");
 });
 
 app.post('/', (req, res) => {
